@@ -9,8 +9,20 @@ A Model Context Protocol (MCP) server that provides file system operations (list
 
 ## Installation
 
+1. Create and activate a virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+2. Install dependencies: You can install the core package directly:
 ```bash
 pip install fastmcp
+```
+
+Or install all project dependencies from the requirements file:
+```bash
+pip install -r requirements.txt
 ```
 
 ## Configuration
